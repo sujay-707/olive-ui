@@ -1,7 +1,8 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Trusted from "./components/Trusted";
-import PhonePreview from "./components/Phonepreview";
+
+import PhonePreview from "./components/PhonePreview";
 
 function App() {
   return (
