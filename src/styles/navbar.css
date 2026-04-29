@@ -1,0 +1,140 @@
+/* WRAPPER */
+.navbar-wrapper {
+  padding: 8px;
+}
+
+/* MAIN NAVBAR */
+.navbar {
+  max-width: 1200px;
+  margin: auto;
+  padding: 12px 24px;
+  background: #eef2ed;
+  border-radius: 999px;
+
+  display: flex;
+  align-items: center;
+
+  position: sticky;
+  top: 24px;
+  z-index: 100;
+}
+
+/* LEFT */
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-left img {
+  width: 140px;
+}
+
+/* CENTER */
+.navbar-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-center nav {
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+  color: #525252;
+  font-weight: 500;
+}
+
+/* NAV ITEMS */
+.nav-item {
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav-item:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* RIGHT */
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+}
+
+.signin {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* BUTTON */
+.cta {
+  background: #253612;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.cta:hover {
+  opacity: 0.9;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .navbar-center {
+    display: none;
+  }
+}
+
+/* HAMBURGER ICON */
+.hamburger {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+  margin-top: 10px;
+  background: #eef2ed;
+  border-radius: 16px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobile-menu div {
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.mobile-menu div:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .navbar-center {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .cta {
+    display: none; /* optional like Olive */
+  }
+}

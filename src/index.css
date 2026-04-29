@@ -1,0 +1,12 @@
+/* ✅ 1. IMPORT FIRST (IMPORTANT) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+/* ✅ 2. TAILWIND */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ 3. GLOBAL STYLES */
+body {
+  font-family: 'Inter', sans-serif;
+}

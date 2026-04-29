@@ -1,0 +1,162 @@
+/* HERO WRAPPER */
+.hero-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+/* INNER CONTENT */
+.hero-inner {
+  max-width: 900px;
+  text-align: center;
+  padding: 0 16px;
+}
+
+/* TITLE */
+.hero-title {
+  font-size: 72px;
+  font-weight: 600;
+  color: #253612;
+
+  line-height: 1.05;
+  letter-spacing: -1.5px;
+
+  margin: 0 auto;
+}
+
+/* SUBTEXT */
+.hero-subtitle {
+  margin-top: 24px;
+
+  font-size: 16px;
+  color: #1f1f1f99;
+
+  line-height: 1.7;
+  max-width: 600px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* BUTTON WRAPPER */
+/* BUTTON ROW */
+.hero-buttons {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap; /* prevents breaking on mobile */
+}
+
+/* COMMUNITY LINK */
+.community-link {
+  font-size: 14px;
+  font-weight: 500;
+
+  color: #253612;
+  text-decoration: none;
+
+  display: inline-flex;
+  align-items: center;
+
+  transition: all 0.2s ease;
+}
+
+.community-link:hover {
+  opacity: 0.7;
+}
+/* BUTTON */
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  background: #253612;
+  color: white;
+
+  padding: 12px 22px;
+  border-radius: 999px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  text-decoration: none;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease;
+}
+
+.download-btn:hover {
+  background: #1f2e0f;
+  transform: translateY(-2px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .hero-title {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    padding-top: 60px;
+  }
+
+  .hero-title {
+    font-size: 38px;
+    line-height: 1.15;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+  }
+
+
+  /* SECTION */
+.phone-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 0 16px;
+}
+
+/* WRAPPER */
+.phone-image-wrapper {
+  max-width: 1000px;
+  width: 100%;
+
+  background: linear-gradient(180deg, #eef2ed, #e5eadf);
+  border-radius: 32px;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 60px 20px;
+
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+}
+
+/* IMAGE */
+.phone-ui-image {
+  max-width: 340px;
+  width: 100%;
+
+  border-radius: 32px;
+
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .phone-ui-image {
+    max-width: 260px;
+  }
+
+  .phone-image-wrapper {
+    padding: 40px 10px;
+  }
+}
+}
